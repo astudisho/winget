@@ -1,6 +1,8 @@
 # PowerShell Script to Install Multiple Packages using winget
 # This script installs the following packages:  VSCode, Chrome, Visual Studio 2026 Community, Node.js, NVIDIA App, PowerShell 7, Oh My Posh, VNC Viewer, Armory Crate, Docker, Office, and Dropbox
 
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
 # Run as Administrator check
 if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
     Write-Host "This script must be run as Administrator.  Requesting elevation..." -ForegroundColor Yellow

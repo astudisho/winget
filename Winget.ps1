@@ -1,5 +1,5 @@
 # PowerShell Script to Install Multiple Packages using winget
-# This script installs the following packages:  VSCode, Chrome, Visual Studio 2026 Community, Node.js, NVIDIA App, PowerShell 7, Oh My Posh, VNC Viewer, Armory Crate, Docker, Office, and Dropbox
+# This script installs the following packages:  VSCode, Chrome, Visual Studio 2026 Community, Node.js, NVIDIA App, PowerShell 7, Oh My Posh, VNC Viewer, Armory Crate, Docker, Office, Dropbox, PowerToys, and Git
 
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
@@ -23,7 +23,9 @@ $packages = @(
     @{ Name = "ASUS.ArmoryCreate"; DisplayName = "Armory Crate" },
     @{ Name = "Docker.DockerDesktop"; DisplayName = "Docker Desktop" },
     @{ Name = "Microsoft.Office"; DisplayName = "Microsoft Office" },
-    @{ Name = "Dropbox.Dropbox"; DisplayName = "Dropbox" }
+    @{ Name = "Dropbox.Dropbox"; DisplayName = "Dropbox" },
+    @{ Name = "Microsoft.PowerToys"; DisplayName = "PowerToys" },
+    @{ Name = "Git.Git"; DisplayName = "Git" }
 )
 
 Write-Host "============================================" -ForegroundColor Cyan

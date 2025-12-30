@@ -8,22 +8,27 @@ This script installs a curated collection of development tools and applications 
 
 ## Packages Installed
 
-The script installs the following 14 packages:
+The script installs the following 19 packages:
 
 1. **Visual Studio Code** - Code editor
 2. **Google Chrome** - Web browser
 3. **Visual Studio 2026 Community Edition** - IDE
 4. **Node.js** - JavaScript runtime
 5. **NVIDIA App** - NVIDIA graphics management
-6. **PowerShell 7** - Modern PowerShell version
-7. **Oh My Posh** - Terminal prompt theme engine
-8. **VNC Viewer** - Remote desktop viewer
-9. **Armory Crate** - ASUS system management
-10. **Docker Desktop** - Container platform
-11. **Microsoft Office** - Productivity suite
-12. **Dropbox** - Cloud storage
-13. **PowerToys** - Microsoft power user utilities
-14. **Git** - Version control system
+6. **NVIDIA GeForce Now** - Cloud gaming service
+7. **PowerShell 7** - Modern PowerShell version
+8. **Oh My Posh** - Terminal prompt theme engine
+9. **VNC Viewer** - Remote desktop viewer
+10. **Armory Crate** - ASUS system management
+11. **Docker Desktop** - Container platform
+12. **Microsoft Office** - Productivity suite
+13. **Dropbox** - Cloud storage
+14. **WhatsApp** - Messaging application
+15. **Git** - Version control system
+16. **Steam** - Gaming platform
+17. **Spotify** - Music streaming service
+18. **Nmap** - Network security scanner
+19. **Logitech G HUB** - Gaming peripherals software
 
 ## Prerequisites
 

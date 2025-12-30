@@ -36,8 +36,10 @@ $packages = @(
     @{ Name = "Dropbox.Dropbox"; DisplayName = "Dropbox" },
     @{ Name = "WhatsApp.WhatsApp"; DisplayName = "WhatsApp" },
     @{ Name = "Git.Git"; DisplayName = "Git" },
-    @{ Name = "Valve.Steam"; DisplayName = "Steam" }
-    @{ Name = "Spotify.Spotify"; DisplayName = "Spotify" }
+    @{ Name = "Valve.Steam"; DisplayName = "Steam" },
+    @{ Name = "Spotify.Spotify"; DisplayName = "Spotify" },
+    @{ Name = "Insecure.Nmap"; DisplayName = "Nmap" },
+    @{ Name = "Logitech.LGHUB"; DisplayName = "Logitech G HUB" }
 )
 
 Write-Host "============================================" -ForegroundColor Cyan
